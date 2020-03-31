@@ -14,7 +14,6 @@
     },
     "format": "{capacity}% {icon}",
     "format-charging": "{capacity}% ",
-    "format-plugged": "",
     "tooltip-format": "{time}",
     "format-icons": ["", "", "", "", ""]
   },
@@ -31,9 +30,9 @@
   },
   "pulseaudio": {
     "format": "{icon}",
+    "format-muted": " ",
     "format-bluetooth": "{icon}",
     "format-bluetooth-muted": " {icon}",
-    "format-muted": " ",
     "format-source-muted": "",
     "format-icons": {
       "headphone": "",
